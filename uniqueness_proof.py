@@ -81,7 +81,7 @@ if __name__ == '__main__':
     # k = 0.75
     w = 1/2.0 # denom has to be >= 2.0
     
-    '''
+    # '''
     for run in range(maxNumOfRuns):
         m_k = np.random.normal(0,1,size=lenOfProbe) 
         m_j = np.random.randn()
@@ -179,4 +179,4 @@ if __name__ == '__main__':
     else:
         print 'counterexample not found'
 
-    # '''
+    '''
